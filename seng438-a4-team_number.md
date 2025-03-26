@@ -10,7 +10,7 @@
 |                |     |
 
 # Introduction
-
+This lab focuses on two key ways to test software: Mutation Testing and Automated GUI/Web Testing. In the first part, we use Pitest to check and improve test sets for the Range and DataUtilities classes. We look at mutation scores to see how good the tests are and make the tests better to cover more ground. The second part is about automated UI testing. Here, we use Selenium IDE to write and run test scripts that check if a web app works correctly. We also compare Selenium with Sikulix, pointing out what makes them good at testing graphical user interfaces. The goal of this lab is to learn more about software testing by improving test sets with mutation testing and using automated tools to make web testing faster and more reliable.
 
 # Analysis of 10 Mutants of the Range class 
 
