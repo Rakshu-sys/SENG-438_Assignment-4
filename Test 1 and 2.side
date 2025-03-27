@@ -299,161 +299,125 @@
       "value": ""
     }]
   }, {
-    "id": "a459e8a7-baca-4503-b4bc-2e551c5199a4",
-    "name": "Increase the number of items in cart",
+    "id": "c33fc5b8-9a99-44e3-ac21-28584145095f",
+    "name": "Add to cart feature",
     "commands": [{
-      "id": "a0d67002-c189-47bf-84a2-d84d5c9e1b70",
+      "id": "f244540d-3700-444e-b7ef-a223481ea123",
       "comment": "",
       "command": "open",
       "target": "/",
       "targets": [],
       "value": ""
     }, {
-      "id": "8a1e26ea-87e0-474d-895f-8ff14ccc8956",
+      "id": "ebf96291-2e97-4505-83c3-23a81e696cd8",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1094x816",
+      "target": "990x816",
       "targets": [],
       "value": ""
     }, {
-      "id": "28c9791f-5b71-4f5f-9214-bbca30af7141",
+      "id": "f22cd48f-0373-4962-acf7-e193d15dcd9b",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=.sitewide-1iyodiv",
+      "target": "linkText=Banana Republic",
       "targets": [
-        ["css=.sitewide-1iyodiv", "css:finder"],
-        ["xpath=//img[@alt='60% off limited-time deals select styles. ']", "xpath:img"],
-        ["xpath=//div[@id='sitewide-app']/header/div[4]/div/div/a/div/img", "xpath:idRelative"],
-        ["xpath=//img", "xpath:position"]
+        ["linkText=Banana Republic", "linkText"],
+        ["css=.brand-logo--BR", "css:finder"],
+        ["xpath=//a[contains(text(),'Banana Republic')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bananarepublic.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Banana Republic')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "79bb882a-0487-41a1-b30c-00ca36ad7bcb",
+      "id": "8839962e-3ad8-4ebe-bd3e-8e2673cbfc26",
       "comment": "",
       "command": "mouseOut",
-      "target": "css=.sitewide-1iyodiv",
+      "target": "linkText=Banana Republic",
       "targets": [
-        ["css=.sitewide-1iyodiv", "css:finder"],
-        ["xpath=//img[@alt='60% off limited-time deals select styles. ']", "xpath:img"],
-        ["xpath=//div[@id='sitewide-app']/header/div[4]/div/div/a/div/img", "xpath:idRelative"],
-        ["xpath=//img", "xpath:position"]
+        ["linkText=Banana Republic", "linkText"],
+        ["css=.brand-logo--BR", "css:finder"],
+        ["xpath=//a[contains(text(),'Banana Republic')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bananarepublic.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Banana Republic')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "fafa0a09-48d1-438f-b0b0-7e9fdd3d97d0",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.sitewide-1iyodiv",
-      "targets": [
-        ["css=.sitewide-1iyodiv", "css:finder"],
-        ["xpath=//img[@alt='60% off limited-time deals select styles. ']", "xpath:img"],
-        ["xpath=//div[@id='sitewide-app']/header/div[4]/div/div/a/div/img", "xpath:idRelative"],
-        ["xpath=//img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "38927ab7-efa6-498c-97b0-c9407a1fda67",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
-      "targets": [
-        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
-        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
-        ["xpath=//div[@id='main-content']/div/div[3]/div/div[3]/a/div/img", "xpath:idRelative"],
-        ["xpath=//div[3]/a/div/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "b1523691-1067-4676-9f2c-9323c4f5a596",
+      "id": "cdd5f383-8350-402f-ad75-dfd86f4aa7ab",
       "comment": "",
       "command": "runScript",
-      "target": "window.scrollTo(0,317.6000061035156)",
+      "target": "window.scrollTo(0,284)",
       "targets": [],
       "value": ""
     }, {
-      "id": "4c001d0e-5517-4e7c-8941-ce1eca329272",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
-      "targets": [
-        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
-        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
-        ["xpath=//div[@id='main-content']/div/div[3]/div/div[3]/a/div/img", "xpath:idRelative"],
-        ["xpath=//div[3]/a/div/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "efcfab33-3b27-41b4-8ca8-0fd9937b0c48",
+      "id": "8a679a08-5f7a-4f55-a4f9-dd83d3604d43",
       "comment": "",
       "command": "runScript",
-      "target": "window.scrollTo(0,719.2000122070312)",
+      "target": "window.scrollTo(0,732.7999877929688)",
       "targets": [],
       "value": ""
     }, {
-      "id": "f3cbbf04-0cd8-42f7-9b07-f03c7ef0cb99",
+      "id": "8303c609-2b43-4228-894a-b3d7ec6e27dc",
       "comment": "",
       "command": "click",
-      "target": "css=.slick-current .sitewide-79elbk > .sitewide-0",
+      "target": "css=.slick-current .sitewide-1m4lgtv > .sitewide-0",
       "targets": [
-        ["css=.slick-current .sitewide-79elbk > .sitewide-0", "css:finder"],
-        ["xpath=//img[@alt='VintageSoft Raglan Sweatshirt']", "xpath:img"],
-        ["xpath=//div[@id='mui-certona-recs-container']/div/div/div/div/div/div/div/div/div/a/div/div/img", "xpath:idRelative"],
-        ["xpath=//div/div/img", "xpath:position"]
+        ["css=.slick-current .sitewide-1m4lgtv > .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='mui-certona-recs-container']/div/div/div/div/div/div/div/div/div/a/div/div[2]/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'VintageSoft Raglan Sweatshirt')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "1634eb07-aecc-4bfe-b4fb-7d8916d6706a",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,159.13333129882812)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "b6368aa0-d2e0-4530-8c70-720e7f0a70a4",
+      "id": "ec396d84-ad45-46fb-848f-94c898d38f00",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=.brick__product-image-wrapper:nth-child(2) img",
+      "target": "css=.slick-active .hover-zoom > img",
       "targets": [
-        ["css=.brick__product-image-wrapper:nth-child(2) img", "css:finder"],
-        ["xpath=//img[@alt='Image number 2 showing, VintageSoft Raglan Sweatshirt']", "xpath:img"],
-        ["xpath=//div[@id='product']/div/div/div[3]/div[2]/div/div[2]/div/a/img", "xpath:idRelative"],
-        ["xpath=//div[2]/div/a/img", "xpath:position"]
+        ["css=.slick-active .hover-zoom > img", "css:finder"],
+        ["xpath=//img[@alt='View large product image 1 of 16. VintageSoft Raglan Sweatshirt']", "xpath:img"],
+        ["xpath=//div[@id='product']/div/div/div[3]/div[2]/div/div/div/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "882bfb6f-1a50-41da-bfa4-e43c6f2ce582",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.brick__product-image-wrapper:nth-child(2) img",
-      "targets": [
-        ["css=.brick__product-image-wrapper:nth-child(2) img", "css:finder"],
-        ["xpath=//img[@alt='Image number 2 showing, VintageSoft Raglan Sweatshirt']", "xpath:img"],
-        ["xpath=//div[@id='product']/div/div/div[3]/div[2]/div/div[2]/div/a/img", "xpath:idRelative"],
-        ["xpath=//div[2]/div/a/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "92d5fb27-11ae-447d-85c0-9b97e64c0dc0",
+      "id": "42f2c429-9744-49e9-834e-9709b92a4b71",
       "comment": "",
       "command": "runScript",
-      "target": "window.scrollTo(0,261.3333435058594)",
+      "target": "window.scrollTo(0,336.2166748046875)",
       "targets": [],
       "value": ""
     }, {
-      "id": "176a5e3f-10bb-4f3a-abd8-3a00fcb50677",
+      "id": "e85b32e3-2349-4494-9746-bc4ccff1a45a",
       "comment": "",
-      "command": "click",
-      "target": "id=variant-1-sizeDimension1-S",
+      "command": "runScript",
+      "target": "window.scrollTo(0,981.816650390625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90ab84b0-31ae-4a95-8bbd-821b5170493b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.slick-active .hover-zoom > img",
       "targets": [
-        ["id=variant-1-sizeDimension1-S", "id"],
-        ["css=#variant-1-sizeDimension1-S", "css:finder"],
-        ["xpath=//input[@id='variant-1-sizeDimension1-S']", "xpath:attributes"],
-        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div[3]/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/div[3]/input", "xpath:position"]
+        ["css=.slick-active .hover-zoom > img", "css:finder"],
+        ["xpath=//img[@alt='View large product image 1 of 16. VintageSoft Raglan Sweatshirt']", "xpath:img"],
+        ["xpath=//div[@id='product']/div/div/div[3]/div[2]/div/div/div/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "f6582f41-98ab-4e86-a460-ed568d965b4e",
+      "id": "8a34726c-42dd-4252-849d-48ca0e1bdd1b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1504.2166748046875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1116f376-9f22-4877-9d95-50f88228f29d",
       "comment": "",
       "command": "click",
       "target": "id=AddToBag_add-to-bag__button",
@@ -466,358 +430,73 @@
       ],
       "value": ""
     }, {
-      "id": "791e7fc2-2baa-4972-b7b6-1faab43d686f",
+      "id": "756eb00f-8acf-4bb1-bc10-036de5aeb67c",
       "comment": "",
       "command": "click",
-      "target": "id=checkoutButton",
+      "target": "id=variant-1-sizeDimension1-XXS",
       "targets": [
-        ["id=checkoutButton", "id"],
-        ["css=#checkoutButton", "css:finder"],
-        ["xpath=//button[@id='checkoutButton']", "xpath:attributes"],
-        ["xpath=//div[@id='modalWindow']/div[4]/div[3]/div[2]/a/button", "xpath:idRelative"],
-        ["xpath=//a/button", "xpath:position"]
+        ["id=variant-1-sizeDimension1-XXS", "id"],
+        ["name=buy-box-Size", "name"],
+        ["css=#variant-1-sizeDimension1-XXS", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-XXS']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div/input", "xpath:idRelative"],
+        ["xpath=//section/div[3]/div[2]/div/div/div/input", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "ede024ba-f06b-4d9e-a1b9-d2ca606261f5",
+      "id": "32d706d2-11d4-4504-8c95-85967fad69b8",
       "comment": "",
-      "command": "mouseOver",
-      "target": "css=.sitewide-1iyodiv",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1783.4166259765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc288333-7ad7-4332-8f69-573808c55590",
+      "comment": "",
+      "command": "click",
+      "target": "id=AddToBag_add-to-bag__button",
       "targets": [
-        ["css=.sitewide-1iyodiv", "css:finder"],
-        ["xpath=//img[@alt='60% off limited-time deals select styles. ']", "xpath:img"],
-        ["xpath=//div[@id='sitewide-app']/header/div[4]/div/div/a/div/img", "xpath:idRelative"],
-        ["xpath=//img", "xpath:position"]
+        ["id=AddToBag_add-to-bag__button", "id"],
+        ["css=#AddToBag_add-to-bag__button", "css:finder"],
+        ["xpath=//button[@id='AddToBag_add-to-bag__button']", "xpath:attributes"],
+        ["xpath=//div[@id='AddToBagWithPrice']/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/button", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "512d6d14-4429-4d7a-9363-993199151431",
+      "id": "0548dd2f-3b23-45c6-a969-55629babb4df",
       "comment": "",
-      "command": "mouseOut",
-      "target": "css=.sitewide-1iyodiv",
+      "command": "click",
+      "target": "css=.sitewide-bks7c5 > svg",
       "targets": [
-        ["css=.sitewide-1iyodiv", "css:finder"],
-        ["xpath=//img[@alt='60% off limited-time deals select styles. ']", "xpath:img"],
-        ["xpath=//div[@id='sitewide-app']/header/div[4]/div/div/a/div/img", "xpath:idRelative"],
-        ["xpath=//img", "xpath:position"]
+        ["css=.sitewide-bks7c5 > svg", "css:finder"]
       ],
       "value": ""
     }, {
-      "id": "8cd7c506-f219-40b2-adf8-ceebfa7c6ec6",
+      "id": "dddb0bef-779c-4de8-af1e-20a426c12972",
       "comment": "",
-      "command": "mouseOver",
-      "target": "css=.sitewide-39io8u",
+      "command": "click",
+      "target": "css=.sitewide-1184azo",
       "targets": [
-        ["css=.sitewide-39io8u", "css:finder"],
-        ["xpath=//div[@id='MyAccountContainer']/button", "xpath:idRelative"],
-        ["xpath=//div/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "5f32b65e-a36f-4462-b0e5-79e117140b79",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.sitewide-1i57pif",
-      "targets": [
-        ["css=.sitewide-1i57pif", "css:finder"],
-        ["xpath=//div[@id='MyAccountContainer']/button", "xpath:idRelative"],
-        ["xpath=//div/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "343ee522-5c14-4a5d-976c-fd0021a4ff6c",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.sitewide-1gnh86r",
-      "targets": [
-        ["css=.sitewide-1gnh86r", "css:finder"],
+        ["css=.sitewide-1184azo", "css:finder"],
         ["xpath=//button[@id='shopping-bag']/div/div/div/span", "xpath:idRelative"],
-        ["xpath=//button/div/div/div/span", "xpath:position"],
-        ["xpath=//span[contains(.,'35')]", "xpath:innerText"]
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'41')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "8d4d3978-d809-4a17-b364-a6608bec8f18",
+      "id": "fe8bd703-c688-4e3f-892c-6d9df5653997",
       "comment": "",
-      "command": "click",
-      "target": "css=.sitewide-1gnh86r",
-      "targets": [
-        ["css=.sitewide-1gnh86r", "css:finder"],
-        ["xpath=//button[@id='shopping-bag']/div/div/div/span", "xpath:idRelative"],
-        ["xpath=//button/div/div/div/span", "xpath:position"],
-        ["xpath=//span[contains(.,'35')]", "xpath:innerText"]
-      ],
+      "command": "runScript",
+      "target": "window.scrollTo(0,68.80000305175781)",
+      "targets": [],
       "value": ""
     }, {
-      "id": "3481561d-4a0d-4cc5-8204-6b9250d13e68",
+      "id": "b0a31c1a-7a56-44da-aa5f-504eb35404b2",
       "comment": "",
-      "command": "mouseOver",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) path",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) path", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "8e4ae32a-cd4f-489d-9b49-d09b2291be33",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) path",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) path", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "f4908d50-8309-40d1-bc82-772f54a73e85",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) path",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) path", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "74accf41-022c-45e1-9723-5a4428440674",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) path",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) path", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "1f90c2ec-170f-452c-95cc-3decd220a2f6",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) path",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) path", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "fd506235-ab4d-4d9e-86b9-b65b826c15c4",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3)",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3)", "css:finder"],
-        ["xpath=//section[@id='active-bag']/ul/li/div[2]/div[2]/div/div/div[2]", "xpath:idRelative"],
-        ["xpath=//div[2]/div[2]/div/div/div[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "63ecf41e-c826-415a-9068-1d4fef4c5e65",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "7d313663-b8c3-4619-bc25-f9387429c8c8",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "cec0e026-dc4b-4e54-8a5a-a88812a054e7",
-      "comment": "",
-      "command": "doubleClick",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "eb494e4f-8253-454b-89d6-676dc07f10bb",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "44d502d9-0c5a-406c-b0ab-81b74ef247e2",
-      "comment": "",
-      "command": "doubleClick",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "6ed3138c-4e72-4501-8d58-1071abe2be65",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "3d1226df-2480-4fd6-83d3-dbad38490b4e",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "63f8913e-1ced-4ad0-94bc-78140664b9e6",
-      "comment": "",
-      "command": "doubleClick",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "66711f3a-563f-4f3d-b51d-f9ba775c2fad",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "3f818e34-8c01-421d-91a6-19aa9226cede",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "1ee46bbd-ad00-485f-9520-9728547e4944",
-      "comment": "",
-      "command": "doubleClick",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "6e999130-cde5-43a8-967f-886ecaa5b00d",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "61d677ef-36a6-41dc-85dd-be93a3338e6b",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "36fcf49b-5dfc-4fab-9a8e-0b5c1f025e53",
-      "comment": "",
-      "command": "doubleClick",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "fb8a0217-b343-435e-b76e-159fb1d1dbc4",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "779264e3-b4ca-484d-80bf-39d678bf565b",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(1) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(1) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "096491e4-ffbe-4203-bfd3-526153ab451a",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(1) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(1) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "8fb96e84-c2ec-46fa-b150-6289e38b45b2",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "59351aa6-d588-4328-a378-65bba63087c9",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3) > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "35b75368-4c3b-4391-add7-b9bcd1be38a7",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3)",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3)", "css:finder"],
-        ["xpath=//section[@id='active-bag']/ul/li/div[2]/div[2]/div/div/div[2]", "xpath:idRelative"],
-        ["xpath=//div[2]/div[2]/div/div/div[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "133f1f62-6ffc-4d3c-a80d-f33ec211ffc5",
-      "comment": "",
-      "command": "click",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3)",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3)", "css:finder"],
-        ["xpath=//section[@id='active-bag']/ul/li/div[2]/div[2]/div/div/div[2]", "xpath:idRelative"],
-        ["xpath=//div[2]/div[2]/div/div/div[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "35eace54-6efc-46f9-bd3c-57a101839a5e",
-      "comment": "",
-      "command": "doubleClick",
-      "target": "css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3)",
-      "targets": [
-        ["css=.font-crossbrand:nth-child(1) .bg-cb-coreColor-lighter:nth-child(3)", "css:finder"],
-        ["xpath=//section[@id='active-bag']/ul/li/div[2]/div[2]/div/div/div[2]", "xpath:idRelative"],
-        ["xpath=//div[2]/div[2]/div/div/div[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "1d8b1fe0-58f7-4134-9846-f3772df5e406",
-      "comment": "",
-      "command": "click",
-      "target": "css=.border-t:nth-child(1)",
-      "targets": [
-        ["css=.border-t:nth-child(1)", "css:finder"],
-        ["xpath=//section[@id='active-bag']/ul/li", "xpath:idRelative"],
-        ["xpath=//section/ul/li", "xpath:position"]
-      ],
+      "command": "runScript",
+      "target": "window.scrollTo(0,127.19999694824219)",
+      "targets": [],
       "value": ""
     }]
   }],
