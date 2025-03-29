@@ -83,9 +83,15 @@ After:
 ![Mutation Score After](./after.png)
 
 # Analysis drawn on the effectiveness of each of the test classes
+The RangeTest class was very effective at covering all key scenarios within the Range class. We had strong coverage for common operations like checking bounds, combining ranges, shifting, and handling NaN values. The test suite also included special cases like overlapping ranges and zero-length ranges. This led to a high mutation score and confidence in test coverage.
+
+The DataUtilitiesTest class also performed well, especially considering how many mocked inputs were used. It covered operations like row and column summing, cloning arrays, converting data formats, and verifying cumulative percentage logic. Some improvements were needed in terms of testing behavior when null values or invalid indexes were introduced, which we added as part of the improved suite.
+
+Overall, both test classes were effective at detecting injected faults and required only small adjustments to reach higher scores.
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 Equivalent mutants negatively impact mutation score accuracy because they artificially lower the mutation score without indicating actual weaknesses in the test suite. These mutants result from code transformations that do not change the program’s behavior, making them impossible to detect with any test case. Since mutation testing tools cannot automatically distinguish between equivalent and real mutants, they are counted as "survived" mutations, reducing the mutation score even though the test suite is not necessarily weak. This can lead to misleading results, making it seem like additional test cases are needed when, in reality, the test suite is already effective. To improve accuracy, manual analysis or automated techniques like static code analysis and formal verification can help identify and exclude equivalent mutants from the final mutation score calculation.
+
 # A discussion of what could have been done to improve the mutation score of the test suites
 To improve the mutation score of the test suites, several strategies could have been applied. First, additional test cases targeting boundary conditions could be introduced to ensure that mutations affecting edge values (e.g., lower and upper bounds) are detected. Second, logical operator replacements (such as changing && to || or > to >=) could be tested by designing cases that specifically trigger the altered logic. Third, arithmetic mutations could be covered by verifying calculations in methods that perform numerical operations. Fourth, exception handling tests should be included to catch cases where mutations alter the behavior of error handling. Finally, mutation coverage analysis should be conducted to identify surviving mutants and refine tests to specifically target them. By implementing these strategies, the mutation score could be significantly improved, ensuring stronger and more reliable test coverage.
 
