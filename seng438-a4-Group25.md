@@ -23,6 +23,7 @@ This lab focuses on two key ways to test software: Mutation Testing and Automate
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 
 # A discussion of what could have been done to improve the mutation score of the test suites
+To improve the mutation score of the test suites, several strategies could have been applied. First, additional test cases targeting boundary conditions could be introduced to ensure that mutations affecting edge values (e.g., lower and upper bounds) are detected. Second, logical operator replacements (such as changing && to || or > to >=) could be tested by designing cases that specifically trigger the altered logic. Third, arithmetic mutations could be covered by verifying calculations in methods that perform numerical operations. Fourth, exception handling tests should be included to catch cases where mutations alter the behavior of error handling. Finally, mutation coverage analysis should be conducted to identify surviving mutants and refine tests to specifically target them. By implementing these strategies, the mutation score could be significantly improved, ensuring stronger and more reliable test coverage.
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 Mutation testing includes small changes (or mutations) within the test suite to see if it the test suite can detect it. The test suite should be able to detect those mutants to prove that it is efficient. If the tests still pass, they are not well written and should be enhanced. 
