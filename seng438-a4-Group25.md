@@ -93,7 +93,7 @@ Advantages: It allows us to detect even the simplest weakness of the tests. This
 Disadvantages: It creates a lot of data that makes it challenging to find exactly where we need to improve our test suite. It can also leave some mutants undetected. Additionally, It can take a lot of time and resources, especially for bigger projects.
 
 # Explain your SELENUIM test case design process
-
+Our process for designing Selenium test cases involved a collaborative and exploratory approach. First, we thoroughly went over the website to identify and understand the key functionalities we could test. We explored different features and interactions on the site to determine which ones were important and needed to be included in our test cases. Once we had a good understanding of the features, we divided the work among the team. Each person took responsibility for testing specific functionalities, ensuring that all parts of the application were covered. We then focused on recording the tests for our assigned sections. This approach allowed us to efficiently complete the testing while covering a wide range of functionalities.
 # Explain the use of assertions and checkpoints
 
 # how did you test each functionaity with different test data
