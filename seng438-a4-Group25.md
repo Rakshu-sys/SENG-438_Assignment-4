@@ -77,8 +77,10 @@ Outcome: Killed.​
 Analysis: Our test cases that validate string representation caught this mutation, indicating thorough testing of the toString() method.
 
 # Report all the statistics and the mutation score for each test class
-
-
+Before:
+![Mutation Score Before](./before.png)
+After:
+![Mutation Score After](./after.png)
 
 # Analysis drawn on the effectiveness of each of the test classes
 
