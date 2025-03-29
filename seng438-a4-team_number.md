@@ -39,5 +39,7 @@ Selenium and SikuliX are both tools for test automation, but they work different
 For Pit testing, we divided the work equally by assigning the Range file to two members and Data Utilities file to the other two. For GUI testing, we first made the test plan and worked according to the plan to explore the functionalities. This way, we made sure that the functionalities we tested didn't overlap. In order to manage our work and collaborate, we used Github. This made version control easy as well. We communicated using a discord group chat and did check-ins in between to make sure we were on the right track. 
 
 # Difficulties encountered, challenges overcome, and lessons learned
+We faced initial challenges with the PIT testing, because 2 of our members had issues in making a test suite. This prevented PIT testing and we couldn't get the report. However, once we had the correct structure of the suite, we were on the right track. Another issue that we faced was with using selenium extension. It made the browser really slow and we had to close the project often and come back to it. We overcame these challenges with team work, collective effort, and effective communication. 
 
 # Comments/feedback on the lab itself
+The lab was well designed and quite interesting. By the end, we were confident with our testing skills. It enhanced our ability to work in a group and complete the tasks with others. Overall, each part of the lab was easy to implement using the instructions. 
