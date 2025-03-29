@@ -1,0 +1,278 @@
+{
+  "id": "c1bef3b0-3d03-4ea6-a0e9-5cac1d74fd0d",
+  "version": "2.0",
+  "name": "GUI testing Shalin test 2",
+  "url": "https://www.homedepot.com",
+  "tests": [{
+    "id": "e02b79d7-8097-48d8-92b7-a715a4be3bc7",
+    "name": "checking filters",
+    "commands": [{
+      "id": "0a5412d9-6bf1-4dcd-ad09-01a21f24cfe3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3d353c1-e990-4aba-bbc1-2560a3a4b6eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1508x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca2895fd-ea47-4665-95c7-66640354d54f",
+      "comment": "",
+      "command": "click",
+      "target": "id=typeahead-search-field-input",
+      "targets": [
+        ["id=typeahead-search-field-input", "id"],
+        ["name=keyword", "name"],
+        ["css=#typeahead-search-field-input", "css:finder"],
+        ["xpath=//input[@id='typeahead-search-field-input']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d62cc838-fbe8-410c-b369-5203e46297d2",
+      "comment": "",
+      "command": "type",
+      "target": "id=typeahead-search-field-input",
+      "targets": [
+        ["id=typeahead-search-field-input", "id"],
+        ["name=keyword", "name"],
+        ["css=#typeahead-search-field-input", "css:finder"],
+        ["xpath=//input[@id='typeahead-search-field-input']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "lawnmo"
+    }, {
+      "id": "a26bf2cb-fcdd-4950-a6cc-19adaaf6f984",
+      "comment": "",
+      "command": "click",
+      "target": "css=#typeahead-results-item-0 .sui-whitespace-pre",
+      "targets": [
+        ["css=#typeahead-results-item-0 .sui-whitespace-pre", "css:finder"],
+        ["xpath=//a[@id='typeahead-results-item-0']/div/div/div/p/span", "xpath:idRelative"],
+        ["xpath=//p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'lawn mower')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fcc7a82-0010-4307-95b9-c6b861a74879",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sui-btn:nth-child(2) > .sui-pr-2",
+      "targets": [
+        ["css=.sui-btn:nth-child(2) > .sui-pr-2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[6]/div/div/div/div[2]/div/button[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "896264e5-2677-4d05-8b8d-f5ded5a0cfb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sui-btn:nth-child(2) > .sui-pr-2",
+      "targets": [
+        ["css=.sui-btn:nth-child(2) > .sui-pr-2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[6]/div/div/div/div[2]/div/button[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99fcf36e-fbac-42b8-b390-44736a084bb6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sui-btn:nth-child(2) > .sui-pr-2",
+      "targets": [
+        ["css=.sui-btn:nth-child(2) > .sui-pr-2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[6]/div/div/div/div[2]/div/button[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89c851b9-8552-4fee-a8d0-7e51c8a35efe",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.primary-filters-drawer__rerfinement:nth-child(3)",
+      "targets": [
+        ["css=.primary-filters-drawer__rerfinement:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[26]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[6]/div/div/div/div[2]/aside/div/section/div/button[3]", "xpath:idRelative"],
+        ["xpath=//section/div/button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Electric Self Propelled Lawn Mowers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5310280e-cdb8-40f0-9ec6-b30408388b58",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.primary-filters-drawer__rerfinement:nth-child(3)",
+      "targets": [
+        ["css=.primary-filters-drawer__rerfinement:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[26]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[6]/div/div/div/div[2]/aside/div/section/div/button[3]", "xpath:idRelative"],
+        ["xpath=//section/div/button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Electric Self Propelled Lawn Mowers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73c63ba7-b832-4e1e-97b8-92e68c82fcc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primary-filters-drawer__rerfinement:nth-child(1)",
+      "targets": [
+        ["css=.primary-filters-drawer__rerfinement:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[24]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[6]/div/div/div/div[2]/aside/div/section/div/button", "xpath:idRelative"],
+        ["xpath=//section/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Gas Self Propelled Lawn Mowers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16fa04ea-d8b7-45fe-97c6-4b4dcc50119a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a22277e0-7e84-4381-9893-f343f2780906",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sui-btn:nth-child(4) .sui-font-regular",
+      "targets": [
+        ["css=.sui-btn:nth-child(4) .sui-font-regular", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[5]/div/div/div/div[2]/div/button[4]/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[4]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Brand')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97252fb6-8b1d-4929-aa66-3af6564f53c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active--0uf21 .multi-select-refinement:nth-child(1)",
+      "targets": [
+        ["css=.active--0uf21 .multi-select-refinement:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[31]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[5]/div/div/div/div[2]/aside/div[3]/section/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/section/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Honda')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "061d61fe-8cea-4a26-9479-c1fbc20dd2e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.drawer-item--0uf21:nth-child(3) .bttn--55u4w > .bttn__content--55u4w",
+      "targets": [
+        ["css=.drawer-item--0uf21:nth-child(3) .bttn--55u4w > .bttn__content--55u4w", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[5]/div/div/div/div[2]/aside/div[3]/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cc31f42-80d2-48e7-bd54-972588e44d7e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c225b4b-d1ff-465a-b140-ac48e0daf1d3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,196.6666717529297)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18a738b5-000c-4c84-a3d7-d72c70131586",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sui-btn:nth-child(4) .sui-font-regular",
+      "targets": [
+        ["css=.sui-btn:nth-child(4) .sui-font-regular", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[5]/div/div/div/div[2]/div/button[4]/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[4]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Fuel Tank Capacity (gallons)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd222c28-3f74-4f34-8f41-7170f55bcc24",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sui-btn:nth-child(4) .sui-font-regular",
+      "targets": [
+        ["css=.sui-btn:nth-child(4) .sui-font-regular", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[5]/div/div/div/div[2]/div/button[4]/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[4]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Fuel Tank Capacity (gallons)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48dc8614-f42b-4a4d-9420-8b54f2dd2e28",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sui-btn:nth-child(4) .sui-font-regular",
+      "targets": [
+        ["css=.sui-btn:nth-child(4) .sui-font-regular", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[5]/div/div/div/div[2]/div/button[4]/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[4]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Fuel Tank Capacity (gallons)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "598cbf66-93f6-4ff1-9cd8-491cdcaabc4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active--0uf21 .multi-select-refinement:nth-child(3)",
+      "targets": [
+        ["css=.active--0uf21 .multi-select-refinement:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[41]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[5]/div/div/div/div[2]/aside/div[3]/section/div/button[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/section/div/button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'1 gal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb6f9cfa-4c61-4ad4-9f5e-ff95ddd35863",
+      "comment": "",
+      "command": "click",
+      "target": "css=.drawer-item--0uf21:nth-child(3) .bttn--55u4w > .bttn__content--55u4w",
+      "targets": [
+        ["css=.drawer-item--0uf21:nth-child(3) .bttn--55u4w > .bttn__content--55u4w", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[5]/div/div/div/div[2]/aside/div[3]/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c310cb2-f383-48c8-908f-65fc50308a94",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fcfad7e-680a-4c39-91e4-316ff4cadacc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,62)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "89dae192-06ee-4e33-b762-9715eb80f516",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e02b79d7-8097-48d8-92b7-a715a4be3bc7"]
+  }],
+  "urls": ["https://www.homedepot.com/"],
+  "plugins": []
+}
