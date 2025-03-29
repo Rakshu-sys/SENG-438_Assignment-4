@@ -23,40 +23,58 @@ Outcome: Killed.​
 Analysis: Our test case that verifies the length calculation detected this mutation, indicating robust coverage for this method.​
 
 Mutant 2: Inverted the condition in the contains(double value) method.​
+
 Outcome: Killed.​
+
 Analysis: The test suite's checks for boundary values successfully caught this mutation, demonstrating effective boundary testing.​
 
 Mutant 3: Altered the return value of the intersects(Range range) method to always return false.​
+
 Outcome: Killed.​
+
 Analysis: Tests designed to verify intersection behavior identified this mutation, confirming that intersection scenarios are well-tested.​
 
 Mutant 4: Modified the combine(Range range1, Range range2) method to return null.​
+
 Outcome: Killed.​
+
 Analysis: Our test cases that validate the combination of ranges detected this mutation, indicating comprehensive testing of range combinations.​
 
 Mutant 5: Changed the expandToInclude(Range range, double value) method to not expand the range.​
+
 Outcome: Killed.​
+
 Analysis: The test suite's validation of range expansion caught this mutation, showcasing effective testing of range expansion functionality.​
 
 Mutant 6: Altered the shift(Range base, double delta) method to not shift the range.​
+
 Outcome: Killed.​
+
 Analysis: Tests that verify range shifting behavior identified this mutation, demonstrating thorough testing of range shifting operations.​
 
 Mutant 7: Modified the scale(Range base, double factor) method to scale incorrectly by a fixed factor.​
+
 Outcome: Killed.​
+
 Analysis: Our test cases that check scaling operations detected this mutation, indicating robust coverage of scaling functionality.​
 
 Mutant 8: Changed the equals(Object obj) method to always return true.​
+
 Outcome: Killed.​
+
 Analysis: The test suite's equality checks successfully caught this mutation, confirming effective testing of object equality.​
 
 Mutant 9: Altered the hashCode() method to return a constant value.​
+
 Outcome: Killed.​
+
 Analysis: Tests that verify hash code consistency detected this mutation, showcasing comprehensive testing of hash code generation.​
 
 Mutant 10: Modified the toString() method to return a fixed string.​
+
 Outcome: Killed.​
-Analysis: Our test cases that validate string representation caught this mutation, indicating thorough testing of the toString() method.​
+
+Analysis: Our test cases that validate string representation caught this mutation, indicating thorough testing of the toString() method.
 
 # Report all the statistics and the mutation score for each test class
 
