@@ -6,7 +6,7 @@
 | -------------- | --- |
 | Student Names: | Rakshita Suri  |
 |                | Mohit Kaila   |
-|                |     |
+|                |Okibe Abang     |
 |                |     |
 
 # Introduction
