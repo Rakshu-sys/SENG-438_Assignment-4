@@ -1,0 +1,216 @@
+{
+  "id": "b876b6f6-5c82-4a88-ba32-27b8330cf0b9",
+  "version": "2.0",
+  "name": "GUI Testing Shalin",
+  "url": "https://www.homedepot.ca",
+  "tests": [{
+    "id": "2597f5b3-8253-4fc2-a41d-2f541513e9e6",
+    "name": "Checking if store locator accesses location",
+    "commands": [{
+      "id": "bb1bc697-f369-4134-851f-d351cc111ea7",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79fa3c1e-c164-40b0-8891-4136180ecf98",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1152x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a0935c7-9089-472b-89cd-2ea2bb0ae954",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-bold-hover__text:nth-child(1)",
+      "targets": [
+        ["css=.acl-bold-hover__text:nth-child(1)", "css:finder"],
+        ["xpath=//a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f44a4105-d86b-4a1a-a2c3-8d89a7f916f1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,74.4000015258789)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98d10e72-c1c2-4dcc-8f19-4e526641aed0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1447.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f0f7f32-f491-4cb2-be18-5a943b0224ad",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5192.783203125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d54a79e4-aeed-41c5-9e3b-6e082d0ff80f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Store Locator",
+      "targets": [
+        ["linkText=Store Locator", "linkText"],
+        ["css=#footer4 .hdca-footer-links__list-item:nth-child(3) > .hdca-footer-links__list-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Store Locator')]", "xpath:link"],
+        ["xpath=//section[@id='footer4']/ol/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://stores.homedepot.ca/')]", "xpath:href"],
+        ["xpath=//section[4]/ol/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Store Locator')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c5de3b8-8d05-449f-aae3-26dc7f02a549",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-near-me",
+      "targets": [
+        ["id=search-near-me", "id"],
+        ["css=#search-near-me", "css:finder"],
+        ["xpath=//div[@id='search-near-me']", "xpath:attributes"],
+        ["xpath=//form[@id='map-search-form']/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2766778d-f905-486e-a685-1ca1265a8296",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=locator-search-value", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='map-search-form']/div/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aca55dfd-efc1-410a-8abd-e8d67fea4d5c",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=locator-search-value", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='map-search-form']/div/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Cal"
+    }, {
+      "id": "41788e85-6ca2-457a-a48b-d899b99f2269",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=#\\31 794f611-3acc-9630-00e8-bcb0dc53355b-as-0 .line2",
+      "targets": [
+        ["css=#\\31 794f611-3acc-9630-00e8-bcb0dc53355b-as-0 .line2", "css:finder"],
+        ["xpath=//li[@id='1794f611-3acc-9630-00e8-bcb0dc53355b-as-0']/div/div/div[2]/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d9712df-5951-4078-bfa5-83fe97282bbe",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.col-maplist",
+      "targets": [
+        ["css=.col-maplist", "css:finder"],
+        ["xpath=//main/div/div/div[3]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8f75faa-859e-4f3c-9c12-69414bd3c1ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-body-layout",
+      "targets": [
+        ["css=.page-body-layout", "css:finder"],
+        ["xpath=//main/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "954aac6b-ab2e-4ceb-8f2e-c17f7bde24bf",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=locator-search-value", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='map-search-form']/div/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97d0cb09-606b-418b-90c3-bb3e8250b207",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=locator-search-value", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='map-search-form']/div/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Dow"
+    }, {
+      "id": "98b7f469-241d-4afc-8932-1695b657d6d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-body-layout",
+      "targets": [
+        ["css=.page-body-layout", "css:finder"],
+        ["xpath=//main/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c3afba3-6fc0-40c9-940e-501dc67a6ede",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-near-me",
+      "targets": [
+        ["id=search-near-me", "id"],
+        ["css=#search-near-me", "css:finder"],
+        ["xpath=//div[@id='search-near-me']", "xpath:attributes"],
+        ["xpath=//form[@id='map-search-form']/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dcd90a3-c9b2-4a76-98f0-cc0d02ec658c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.leaflet-marker-icon:nth-child(3) > .index",
+      "targets": [
+        ["css=.leaflet-marker-icon:nth-child(3) > .index", "css:finder"],
+        ["xpath=//div[@id='gmap']/div/div[4]/div[3]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "28b43233-f71f-4dd3-aba6-3e973c7dfcb8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}
