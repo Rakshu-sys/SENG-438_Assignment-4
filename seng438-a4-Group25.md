@@ -25,6 +25,9 @@ This lab focuses on two key ways to test software: Mutation Testing and Automate
 # A discussion of what could have been done to improve the mutation score of the test suites
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
+Mutation testing includes small changes (or mutations) within the test suite to see if it the test suite can detect it. The test suite should be able to detect those mutants to prove that it is efficient. If the tests still pass, they are not well written and should be enhanced. 
+Advantages: It allows us to detect even the simplest weakness of the tests. This shows us where we can improve the quality of the code and make our tests more efiicent and reliable. 
+Disadvantages: It creates a lot of data that makes it challenging to find exactly where we need to improve our test suite. It can also leave some mutants undetected. Additionally, It can take a lot of time and resources, especially for bigger projects.
 
 # Explain your SELENUIM test case design process
 
