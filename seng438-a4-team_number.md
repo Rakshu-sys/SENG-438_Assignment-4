@@ -36,7 +36,7 @@ This lab focuses on two key ways to test software: Mutation Testing and Automate
 Selenium and SikuliX are both tools for test automation, but they work differently. Selenium is good for testing websites since it runs well on browsers like Chrome, Firefox, and Edge. It supports different programming languages, works well with other testing tools, and is pretty fast. The issue with Selenium is that it works good only for web apps. It needs some extra setup, and can’t do anything outside the webpage. SikuliX is different because it looks for images on the screen to interact with things, which makes it useful for automating desktop apps, older software, and even games. It’s pretty simple to use and doesn’t require much setup, but it’s slower, depends on screen resolution, and isn’t the best for larger projects. If the goal is web testing, Selenium is the better option, while SikuliX is great for anything that appears on the screen. In some cases, using both can create a smoother and more flexible testing experience.
 
 # How the team work/effort was divided and managed
-
+For Pit testing, we divided the work equally by assigning the Range file to two members and Data Utilities file to the other two. For GUI testing, we first made the test plan and worked according to the plan to explore the functionalities. This way, we made sure that the functionalities we tested didn't overlap. In order to manage our work and collaborate, we used Github. This made version control easy as well. We communicated using a discord group chat and did check-ins in between to make sure we were on the right track. 
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
